@@ -1,0 +1,141 @@
+body {
+    max-width: 95vw;  
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+.top-intro {
+    background-color: lemonchiffon;
+    width: 80%;
+    margin: -20px auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(50,0,0,0.75);
+}
+
+h1 {
+    font-family: cursive;
+    color: darkslategray;
+    font-size: 2.5em;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.top-intro p {
+    font-family: tahoma;
+    color: #b122a1;
+    font-size: 1.5em;
+    font-style: italic;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.about-me {
+    width: 70%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me-content {
+    border: 1px dashed #5f7c9b;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.about-me-content img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: sans-serif;
+    color: #d5c201;
+    text-align: center;
+    background-color: rgba(115, 50, 225, 0.8);
+    border-radius: 10px;
+}
+
+.about-me-para {
+    color: #010101;
+    font-size: 1.5em;
+    font-family: lucida sans;
+}
+
+.ed-bg {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.ed-bg p {
+    color: #010101;
+    font-size: 1.5em;
+    font-family: lucida sans;
+}
+
+.ed-bg-content {
+    border: 1px dashed #5f7c9b;
+    padding: 10px;
+}
+
+.ed-bg-content img {
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.ed-bg-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.photospeak {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.images img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+address {
+    font-family: tahoma;
+    color: #a10101;
+    font-size: 1em;
+    text-align: center;
+    background: #d2d2c5;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+address a {
+    color:#a10101;
+    text-decoration: none;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+.skills {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.skills p {
+    color: #010101;
+    font-size: 1.5em;
+    font-family: lucida sans;
+}
+
+.skills ul {
+    list-style-type: square;
+    font-family: lucida sans;
+    color: #010101;
+    font-size: 1.5em;
+}

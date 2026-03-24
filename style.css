@@ -1,0 +1,147 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+    background: #e5f5d5;
+    font-family: helvetica;
+    color: #1b1b55;
+    margin: 0;
+}
+
+header {
+    background-color: #1b1b55;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color:#f0e022;
+    align-items: center;
+    width: min(80%, 80vw);
+    margin: 0 auto;
+}
+
+.title p {
+    font-size: 2rem;
+    font-style: italic;
+    font-family: "times new roman", sans-serif;
+}
+
+.navigator {
+    padding: 5px 50px;
+    width: min(60%, 60vw);
+    margin: 0 auto;
+}
+
+img {
+    width: max(200px, 10vw);
+    margin: 10px;
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap:wrap;
+    padding-inline-start: 0;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > ul > li {
+    color: #f5e5e5;
+}
+
+li a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: #f5e5e5;
+    color: #1b1b55;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "lucida sans", sans-serif;
+}
+
+.info {
+    width: 60%;
+    margin: 60px auto 0 auto;
+    max-width: 700px;
+}
+
+.info > p:first-of-type:first-letter {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.info > ul li {
+    list-style: circle;
+    font-size: 1.2em;
+    font-family: verdana, sans-serif;
+    margin: 10px 0;
+    font-weight: 600;
+}
+p:not(.title-para) {
+    font-size: 1.5rem;
+    font-family: georgia, sans-serif;
+    color: #05150a;
+}
+
+.subheading {
+    border-bottom: 2px solid #f0e022;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    object-fit: fil;
+}
+
+.last::after {
+    content: "";
+    width: 220px;
+}
+
+footer {
+    background-color: #1b1b55;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+footer, footer a {
+    color: #e1f1f1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #e1f1f1;
+    color: #1b1b55;
+}
+
+address {
+    line-height: 20px;
+}
